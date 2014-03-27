@@ -30,6 +30,7 @@ We had to proceed through many stages
  with your comments (good or bad).
  
  I used some code that I found in the internet.
+
  1. ColorComboBox.java was from Alex Samuel 1998
  2. AI algorithm which is minimax was from Matthias Braunhofer 2006
  3. some sounds were from www.freefx.co.uk
