@@ -15,28 +15,28 @@ We had to proceed through many stages
 
  How to run the game
  =========================================================================
- The game was made using Java and in Eclipse.
+ The game was made using Java and Eclipse.
  
  1. Download the zip file from Github and save it to Eclipse workbench.
  2. Go to File->Import->General->Existing Projects into Workspace  and then next.
- 3. Select root directory, find the workspace and when the new project appears select it and then Finish.
+ 3. Select root directory, find the workspace and when the new project appears, select it and then Finish.
  4. Run the game from the menu Run->Run
  5. Enjoy
  
  Copyright
  ========================================================================
  This game, although it was based on a given code, actually it was remade from the scratch.
- You are free to use it as you like. If you find it usefull, i would appreciate one email
+ You are free to use it as you like. If you find it usefull, I would appreciate one email
  with your comments (good or bad).
  
  I used some code that I found in the internet.
 
  1. ColorComboBox.java was from Alex Samuel 1998
- 2. AI algorithm which is minimax was from Matthias Braunhofer 2006
+ 2. AI algorithm which is based on minimax, was from Matthias Braunhofer 2006
  3. some sounds were from www.freefx.co.uk
  4. soundtrack was from a game I found in the internet http://www.maxgames.com/play/flip-and-go.html.
  
- the above copyrights belong to their owners. All the rest, belongs to community.
+ the above copyrights belong to their owners. All the rest, belong to community.
  
  Enjoy the game and the code
  Christos Giannoukos 2014
