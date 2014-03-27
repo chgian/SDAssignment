@@ -96,6 +96,13 @@ public class SDGameScreen extends SDScreen
 						
 		}
 		
+		// draw what a player must do.
+		g.setFont(new Font( "Tempus Sans ITC", Font.BOLD, 30));
+		g.setColor(Color.yellow);
+		g.drawString("Purpose", 530, 250);	
+		g.setFont(new Font( "Tempus Sans ITC", Font.BOLD, 20));
+		g.setColor(Color.ORANGE);
+		g.drawString("Create a line with 4 tokens to win", 450, 280);			
 	}	
 
 	/**

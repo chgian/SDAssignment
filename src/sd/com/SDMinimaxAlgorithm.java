@@ -18,6 +18,7 @@ public class SDMinimaxAlgorithm extends SDAlgorithm
 												{4, 6,  8, 10,  8, 6, 4},
 												{3, 4,  5,  7,  5, 4, 3} };
 	
+	
 	public SDMinimaxAlgorithm() 
 	{
 		// TODO Auto-generated constructor stub
@@ -42,9 +43,11 @@ public class SDMinimaxAlgorithm extends SDAlgorithm
 		this.opponent = -1*player;
 		this.searchDepthLimit = searchDepthLimit;
 		
-		miniMaxValue( grid, 0, this.player);		
+		miniMaxValue( grid2, 0, this.player);		
 		return proposedColumn;
 	}
+	
+	
 	
 		
 	/**

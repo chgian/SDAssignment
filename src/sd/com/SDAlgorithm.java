@@ -6,7 +6,7 @@ package sd.com;
  * @author Christos Giannoukos
  *
  */
-public class SDAlgorithm 
+public class SDAlgorithm
 {
 	protected int player;
 	protected int opponent;

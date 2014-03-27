@@ -41,7 +41,7 @@ public class playerSearch
 		playerFaceNum = facenum;
 		gamesWon = 0;
 		playerNumber = playerNum;
-		playerType = playerTyp;
+		playerType = playerTyp;		
 		
 		alg = new SDMinimaxAlgorithm();
 		
@@ -86,7 +86,10 @@ public class playerSearch
 	public int getMove(int[][] grid, int difficulty)
 	{		
 		// according to difficult, define the search depth limit
-		int searchDepthLimit = difficulty +1;
+		// we give searchDepthLimit 2, 4, 6
+		int searchDepthLimit = 2*(difficulty +1);
+		
+		
 		
 		// call AI algorithm to get the nxt move
 		int move = alg.getMove(grid, playerNumber, searchDepthLimit);

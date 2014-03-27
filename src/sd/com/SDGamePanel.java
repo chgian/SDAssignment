@@ -184,7 +184,7 @@ public class SDGamePanel extends JPanel
 			break;
 		case GV.OPTIONS_SCREEN:		// options	
 			welcomeScreen.draw(g, mousePos);
-			// draw background
+			// draw background, make it darker
 			g.setColor(new Color(50, 50, 50, 170));
 			g.fillRect(screenRect.x,  screenRect.y,  screenRect.width, screenRect.height);	
 			break;
