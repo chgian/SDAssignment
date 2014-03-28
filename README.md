@@ -15,13 +15,18 @@ We had to proceed through many stages
 
  How to run the game
  =========================================================================
- The game was made using Java and Eclipse.
+ The game was made using Java and Eclipse. Unfortunately we cannot just import the folder into 
+ Eclipse workspace, so we must do some tricks.
  
- 1. Download the zip file from Github and save it to Eclipse workbench.
- 2. Go to File->Import->General->Existing Projects into Workspace  and then next.
- 3. Select root directory, find the workspace and when the new project appears, select it and then Finish.
- 4. Run the game from the menu Run->Run
- 5. Enjoy
+ 1. Download the zip file from Github and unzip it.
+ 2. Go to unzipped folder, copy the folders images, sounds, src.
+ 2. Go to Eclipse, create a new Java project i.e. SDAssignment.
+ 3. Go to Eclipse workspace, paste the folders and replace all existing folders in project
+ 5. Go to Eclipse and right click on SDAssignment and then refresh.
+ 6. New folders will appear. we are ready to run the game. no external dependencies or paths needed
+ 7. Run game as Java application. Because there are 3 main functions, choose the main in runGame.
+ 8. Enjoy
+
  
  Copyright
  ========================================================================
@@ -33,8 +38,9 @@ We had to proceed through many stages
 
  1. ColorComboBox.java was from Alex Samuel 1998
  2. AI algorithm which is based on minimax, was from Matthias Braunhofer 2006
- 3. some sounds were from www.freefx.co.uk
+ 3. some sound effects were from www.freefx.co.uk
  4. soundtrack was from a game I found in the internet http://www.maxgames.com/play/flip-and-go.html.
+ 5. players' faces were found in the internet.
  
  the above copyrights belong to their owners. All the rest, belong to community.
  
